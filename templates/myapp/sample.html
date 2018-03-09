@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Admin Dashboard</title>
+	<!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+		{% load static %}
+
+		<script src="{% static "js/crossfilter.js" %}"></script>
+		<script src="{% static "js/d3.js" %}"></script>
+		<script src="{% static "js/dc.js" %}"></script>
+		<link rel="stylesheet" href="{% static "js/dc.css" %}">
+
+
+	</head>
+<style>
+
+.container {
+  margin: 0;
+}
+
+</style>
+<body>
+
+<div class="container">
+
+  <div class="row">
+
+    <div class="col-lg-2">
+
+				<div class="panel panel-default">
+
+				<div class="panel-heading">
+				<a href="{% url 'special' %}">Dashboard</a>
+				</div>
+
+				<div class="panel-body">
+				<a href="{% url 'myapp:viewdata' %}">View Data</a>
+				</div>
+
+				<div class="panel-body">
+				<a href="{% url 'myapp:analyse' %}">Analyse</a>
+				</div>
+
+				<div class="panel-body">
+				<a href="{% url 'logout' %}">Logout</a>
+				</div>
+
+			</div>   <!-- Panel closed -->
+
+    </div>  <!--Column closed -->
+
+		<div class="col-lg-10">
+			<div class="jumbotron">
+				<h1>Admin Dashboard</h1>
+				<p>Profiling Different Types of Accident</p>
+			</div>
+		</div>
+
+	</div>   <!-- row closed -->
+
+  </div>
+
+<div class="container">
+	{% block body_block %}
+	{% endblock %}
+</div>
+
+</body>
+</html>

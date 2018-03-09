@@ -1,0 +1,46 @@
+{% extends "myapp/base.html" %}
+
+{% block body_block %}
+<div class="container">
+  <h2>Welcome, User</h2>
+  <br>
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link active" data-toggle="tab" href="{% url 'myapp:user' %}">India</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#menu1">Maharashtra</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#menu2">City</a>
+    </li>
+  </ul>
+
+  <div class="container">
+    <h2>India </h2>
+    <p>National level data</p>
+    <div class="card" style="width:400px">
+      {% load static %}
+      <img class="card-img-top" src="{% static "st.png" %}" alt="Card image" style="width:100%">
+      <div class="card-body">
+        <h4 class="card-title">National Statistics</h4>
+        <p class="card-text">This Statistics is based on ....</p>
+        <a href="IndiaMap" class="btn btn-primary">Map</a>
+      <p>click on Map to view google map showing accident prone zones in India</p>
+      </div>
+    </div>
+
+{% endblock %}
+
+<div class="tab-content">
+    <div id="home" class="container tab-pane active"><br>
+    <iframe src="India.html" style="border:2px solid grey;" height="700" width="100%"></iframe>
+  </div>
+    <div id="menu1" class="container tab-pane fade" href= "Maharashtra.html"><br>
+      <iframe src="" style="border:2px solid grey;" height="700" width="100%"></iframe>
+        </div>
+    <div id="menu2" class="container tab-pane fade"href= "City.html"><br>
+      <iframe src="" style="border:2px solid grey;" height="700" width="100%"></iframe>
+    </div>
+  </div>
+</div>

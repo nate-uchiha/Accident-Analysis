@@ -1,0 +1,8 @@
+
+file_upload = = register  //function in views.py
+
+upload_form == profile_form
+profile == upload
+
+
+profile_pic == upload_file

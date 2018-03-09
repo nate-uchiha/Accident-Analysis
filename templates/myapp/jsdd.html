@@ -1,0 +1,356 @@
+{% extends "myapp/sample.html" %}
+{% block body_block %}
+
+<style type="text/css">
+    .panel-panel-default{
+        float:left;
+        width: 100%;
+        bottom: 0;
+        position: fixed;
+        height: 100%
+         }
+</style>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-2">
+
+    </div>
+<div class="col-lg-10">
+    <center><h1>Select State , District, City</h1> </center>
+        <div class="table-responsive">
+             <table class="table">
+                    <form name="myform" id="myForm">
+                        <tr><th>
+                        <p>STATE</p>
+                            <select id="stateSel" size="1">
+                            <option value="" selected="selected">Select state</option>
+                        </select></th>
+                        <br>
+                        <br>
+                       <th>
+                        <p>DISTRICT</p>
+                        <select id="statesel" size="1">
+                            <option value="" selected="selected">Please select state first</option>
+                        </select>
+                        </th>
+                        <br>
+                        <br>
+                        <th>
+                        <p>CITY</p>
+                            <select id="citysel" size="1">
+                            <option value="" selected="selected">Please select county first</option>
+                        </select>
+                        <input type="button" name="" value="Submit" onclick="graphload()">
+                        </th>
+                        <tr>
+                    </form>
+            </table>
+        </div>
+</div>
+
+
+
+
+
+<!-- 2nd row-->
+<div class="row">
+      <div class="col-lg-2">
+
+      </div>
+    <div class="col-lg-10">
+
+      <div id='areadiv'>
+        <strong>Accident Areas in city</strong>
+                    <span class="reset" style="display: none;">range: <span class="filter"></span></span>
+                    <a class="reset" href="javascript:areanamechart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+                    <div class="clearfix"></div>
+      </div>
+    </div>
+</div>
+<!-- 3rd row-->
+<div class="row">
+    <div class="col-lg-2"></div>
+         <div class="col-lg-6">
+            <div id="gendiv">
+                <strong>Cause of Accidents in city</strong>
+                        <span class="reset" style="display: none;">range: <span class="filter"></span></span>
+                        <a class="reset" href="javascript:genchart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+                <div class="clearfix"></div>
+            </div>
+         </div>
+
+     <div class="col-lg-4">
+        <div id="test">
+            <strong>Gender of driver in accidents</strong>
+                <span class="reset" style="display: none;">range: <span class="filter"></span></span>
+                <a class="reset" href="javascript:chart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+                <div class="clearfix"></div>
+            </div> -
+        </div>
+    </div>
+<!--4th row -->
+<div class="row">
+        <div class="col-lg-2"></div>
+            <div class="col-lg-6">
+                <div id="speed">
+                    <strong>Speed of vehicles involved in accidents</strong>
+                    <span class="reset" style="display: none;">range: <span class="filter"></span></span>
+                    <a class="reset" href="javascript:speedchart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+                    <div class="clearfix"></div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div id="timediv">
+                <strong>As per the time occurence</strong>
+                    <span class="reset" style="display: none;">range: <span class="filter"></span></span>
+                    <a class="reset" href="javascript:speedchart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+                    <div class="clearfix"></div>
+                </div>
+        </div>
+</div>
+<!--5th row -->
+
+<div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-6" id="weatherdiv">
+            <strong>As per the Weather</strong>
+                    <span class="reset" style="display: none;">range: <span class="filter"></span></span>
+                    <a class="reset" href="javascript:speedchart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+                    <div class="clearfix"></div>
+        </div>
+        <div class="col-lg-4" id="licdiv">
+            <strong>Owner of Type of Vehicles and Type of Licence</strong>
+                    <span class="reset" style="display: none;">range: <span class="filter"></span></span>
+                    <a class="reset" href="javascript:licchart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+                    <div class="clearfix"></div>
+        </div>
+
+    </div>
+<!-- content closed -->
+</div>
+<script>
+var stateObject = {
+    "Maharashtra": {
+        "Mumbai": ["Ghatkopar","Vikroli"],
+        "Thane" : ["Thane"],
+        "Nashik": ["Nashik"],
+        "Raigad":["Panvel"],
+        "Pune":["Lonavala","Pune City"],
+    },
+    "Kerala": {
+        "Kerala district Name here": ["city 1", "city 2"],
+    }
+}
+window.onload = function () {
+    var stateSel = document.getElementById("stateSel"),
+        statesel = document.getElementById("statesel"),
+        citysel = document.getElementById("citysel");
+    for (var state in stateObject) {
+        stateSel.options[stateSel.options.length] = new Option(state, state);
+    }
+    stateSel.onchange = function () {
+        statesel.length = 1; // remove all options bar first
+        citysel.length = 1; // remove all options bar first
+        if (this.selectedIndex < 1) {
+          statesel.options[0].text = "Please select state first"
+          citysel.options[0].text = "Please select district first"
+          return; // done
+        }
+        statesel.options[0].text = "Please select District"
+        for (var county in stateObject[this.value]) {
+            statesel.options[statesel.options.length] = new Option(county, county);
+        }
+        if (statesel.options.length==2) {
+          statesel.selectedIndex=1;
+          statesel.onchange();
+        }
+
+    }
+    stateSel.onchange(); // reset in case page is reloaded
+    statesel.onchange = function () {
+        citysel.length = 1; // remove all options bar first
+        if (this.selectedIndex < 1) {
+          citysel.options[0].text = "Please select county first"
+          return; // done
+        }
+        citysel.options[0].text = "Please select city"
+
+        var cities = stateObject[stateSel.value][this.value];
+        for (var i = 0; i < cities.length; i++) {
+            citysel.options[citysel.options.length] = new Option(cities[i], cities[i]);
+        }
+        if (citysel.options.length==2) {
+          citysel.selectedIndex=1;
+          citysel.onchange();
+        }
+
+    }
+
+}
+
+</script>
+<script type="text/javascript">
+function graphload(){
+  var State = stateSel.value;
+  var District = statesel.value;
+  var City = citysel.value;
+
+
+    var areanamechart = dc.barChart("#areadiv");
+    var genchart = dc.rowChart("#gendiv");
+    var chart = dc.pieChart("#test");
+    var speedchart = dc.pieChart("#speed");
+    var timechart = dc.pieChart("#timediv");
+    var weatherchart = dc.pieChart("#weatherdiv");
+    var licchart = dc.rowChart("#licdiv");
+
+    d3.csv("/media/"+State+"/"+District+"/"+City+".csv",function(err,data){
+    if (err) throw err;
+
+    var ndx = crossfilter(data);
+    var all = ndx.groupAll();
+
+    //dimension
+    var areaname = ndx.dimension(function(d){
+        return d["area"];
+    });
+
+    var timech = ndx.dimension(function (d){
+        return d["time"];
+    })
+    var piespeedchart = ndx.dimension(function(d){
+        return d["speed"];
+    })
+    var piechartgender = ndx.dimension(function (d){
+        return d["Gender"];
+    });
+
+    var gen = ndx.dimension(function(d){
+        return d["causeofaccidents"];
+    });
+
+    var weatherdime = ndx.dimension(function(d){
+        return d["Weather"];
+    });
+
+
+    var licencedime = ndx.dimension(function(d){
+        return d["OwnerofTypeofVehiclesandTypeofLicence"];
+    });
+
+
+    //group here...
+    var areatypegroup = areaname.group();
+    var gentypegroup = gen.group();
+    var piechofgen =  piechartgender.group();
+    var piechofspeed = piespeedchart.group();
+    var timegroup = timech.group();
+    var weathergroup = weatherdime.group();
+    var licgroup = licencedime.group();
+
+    areanamechart
+          .width(1000)
+          .height(400)
+          .x(d3.scale.ordinal())
+          .xUnits(dc.units.ordinal)
+          .brushOn(false)
+          .xAxisLabel('Area')
+          .yAxisLabel('Number of Accidents in city')
+          .dimension(areaname)
+          .barPadding(0.1)
+          .outerPadding(0.05)
+          .group(areatypegroup);
+
+    genchart
+        .width(550)
+        .height(350)
+        .dimension(gen)
+        .group(gentypegroup)
+        .elasticX(true);
+
+    chart.
+        width(420)
+        .height(250)
+        .innerRadius(50)
+        .dimension(piechartgender)
+        .group(piechofgen)
+        .legend(dc.legend())
+        .on('pretransition', function(chart) {
+        chart.selectAll('text.pie-slice').text(function(d) {
+            return d.data.key + ' ' + dc.utils.printSingleValue((d.endAngle - d.startAngle) / (2*Math.PI) * 100) + '%';
+        })
+    });
+
+    speedchart
+            .width(500)
+            .height(250)
+            .innerRadius(50)
+            .dimension(piespeedchart)
+            .group(piechofspeed)
+            .legend(dc.legend())
+            .on('pretransition', function(chart) {
+             chart.selectAll('text.pie-slice').text(function(d) {
+                return d.data.key + ' ' + dc.utils.printSingleValue((d.endAngle - d.startAngle) / (2*Math.PI) * 100) + '%';
+            })
+        });
+    timechart
+            .width(500)
+            .height(300)
+            .innerRadius(20)
+            .externalLabels(30)
+            .externalRadiusPadding(40)
+            .drawPaths(true)
+            .dimension(timech)
+            .group(timegroup)
+            .legend(dc.legend())
+            .on('pretransition', function(chart) {
+                      chart.selectAll('.dc-legend-item text')
+                      .text('')
+                      .append('tspan')
+                      .text(function(d) { return d.name; })
+                      .append('tspan')
+                      .attr('x', 120)
+                      .attr('text-anchor', 'end')
+                      .text(function(d) { return d.time; });
+                  });
+
+    weatherchart
+            .dimension(weatherdime)
+            .group(weathergroup)
+            .width(500)
+            .height(300)
+            .innerRadius(20)
+            .externalLabels(30)
+            .externalRadiusPadding(40)
+            .drawPaths(true)
+            .legend(dc.legend())
+            .on('pretransition', function(chart) {
+             chart.selectAll('text.pie-slice').text(function(d) {
+                return d.data.key + ' ' + dc.utils.printSingleValue((d.endAngle - d.startAngle) / (2*Math.PI) * 100) + '%';
+            })
+        });
+
+    licchart
+        .width(550)
+        .height(350)
+        .dimension(licencedime)
+        .group(licgroup)
+        .elasticX(true);
+
+dc.renderAll();
+});
+}
+</script>
+
+<script>
+
+
+</script>
+
+{% endblock %}
+
+<!--
+</body>
+</html>
+-->

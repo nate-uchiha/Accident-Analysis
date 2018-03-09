@@ -1,0 +1,191 @@
+{% extends "myapp/sample.html" %}
+{% block body_block %}
+
+
+  {% if user.is_authenticated %}
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<style type="text/css">
+  * {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+</style>
+
+
+<script>
+function myFunction() {
+  var input, filter, table, tr, td, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }
+  }
+}
+</script>
+
+
+
+
+<div class="row">
+
+  <div class="col-lg-2">
+  </div>
+  <div class="col-lg-10">
+      <center><h1>Select State , District, City </h1> </center>
+                <div class="table-responsive">
+                 <table class="table">
+                   <form method="post">
+                     {% csrf_token %}
+                     <tr><th>
+                     <p>STATE</p>
+                         <select name="state" id="stateSel" size="1">
+                         <option value="" selected="selected">Select state</option>
+                     </select></th>
+                     <br>
+                     <br>
+                     <th>
+                      <p>DISTRICT</p>
+                      <select name="district" id="statesel" size="1">
+                          <option value="" selected="selected">Please select District first</option>
+                      </select>
+                      </th>
+                      <br>
+                      <br>
+                      <th>
+                      <p>CITY</p>
+                      <select name="city" id="citysel" size="1">
+                          <option value="" selected="selected">Please select City first</option>
+                      </select>
+                    </th>
+                    <tr>
+                      <td>
+                        <button type="submit" name="button">Submit</button>
+                      </form>
+                    </td>
+                  </table>
+
+                </div>
+
+
+<center><div class="container">
+  <center><h2>Area and Precautions</h2></center>
+  <div class="row">
+    <div class="col-lg-2"></div>
+  <div class="col-lg-10">
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for Area...." title="Type in a name">
+
+  <table class="table table-dark table-hover" id="myTable">
+    <thead>
+      <tr>
+        <th>Area Name</th>
+        <th>Precautions</th>
+        </tr>
+    </thead>
+    <tbody>
+      {% for key,value in algo.items %}
+      <tr>
+        <td>{{key}}</td>
+        <td><li>{% for v in value %}
+        {{v}}{% endfor %}</li>
+          </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+  </table>
+</div>
+</div>
+</div>
+
+
+
+                <script>
+                var stateObject = {
+                    "Maharashtra": {
+                        "Mumbai": ["Ghatkopar","Vikroli"],
+                        "Nashik": ["Nashik"],
+                        "Thane":["Thane"],
+                        "Raigad":["Panvel"],
+                        "Pune":["mumbai-pune"],
+                    },
+                    "Kerala": {
+                        "Kerala district Name here": ["city 1", "city 2"],
+                    }
+                }
+                window.onload = function () {
+                    var stateSel = document.getElementById("stateSel"),
+                        statesel = document.getElementById("statesel"),
+                        citysel = document.getElementById("citysel");
+                    for (var state in stateObject) {
+                        stateSel.options[stateSel.options.length] = new Option(state, state);
+                    }
+                    stateSel.onchange = function () {
+                        statesel.length = 1; // remove all options bar first
+                        citysel.length = 1; // remove all options bar first
+                        if (this.selectedIndex < 1) {
+                          statesel.options[0].text = "Please select state first"
+                          citysel.options[0].text = "Please select district first"
+                          return; // done
+                        }
+                        statesel.options[0].text = "Please select District"
+                        for (var county in stateObject[this.value]) {
+                            statesel.options[statesel.options.length] = new Option(county, county);
+                        }
+                        if (statesel.options.length==2) {
+                          statesel.selectedIndex=1;
+                          statesel.onchange();
+                        }
+
+                    }
+                    stateSel.onchange(); // reset in case page is reloaded
+                    statesel.onchange = function () {
+                        citysel.length = 1; // remove all options bar first
+                        if (this.selectedIndex < 1) {
+                          citysel.options[0].text = "Please select county first"
+                          return; // done
+                        }
+                        citysel.options[0].text = "Please select city"
+
+                        var cities = stateObject[stateSel.value][this.value];
+                        for (var i = 0; i < cities.length; i++) {
+                            citysel.options[citysel.options.length] = new Option(cities[i], cities[i]);
+                        }
+                        if (citysel.options.length==2) {
+                          citysel.selectedIndex=1;
+                          citysel.onchange();
+                        }
+
+                    }
+                }
+                </script>
+
+
+                </div>
+</div>
+
+
+{% endif %}
+{% endblock %}

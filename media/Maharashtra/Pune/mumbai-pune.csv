@@ -1,0 +1,101 @@
+area,Typeoflocation,time,Weather,typeofvehicle,ageofvehicle,natureofaccidents,causeofaccidents,accidentvictimsage,eduofdriver,according to Responsibilities of Driver,speed,roadconditions,roadfeature,typeofjunction,type of traffic control,Owner of Type of Vehicles and Type of Licence,Gender
+khopoli,highway,12pm-3pm ,heavy rain ,"trucks ,tempos,tracto ",>10,alchol intake , fault of driver ,18-20years ,not known,,<30 ,,,,,regular licence ,Female
+khalapur,Bridge,3am-6am,fine ,"trucks ,tempos,tracto ",2-4year ,alchol intake ,weather condition ,65 and above ,9-10std ,,50-70 ,,,,,without licence,Female
+lonavala,highway,9am-12pm ,cloudy ,other motor vehicles,4-6year ,did not give right of way to vehicle ,fault of driver of other vehicles ,<5years ,above 10th std ,,30-50 ,,,,,owner of private vehicle ,Male
+khalapur,toll naka,9am-12pm ,cloudy ,3 wheeler ,4-6year ,did not give right of way to vehicle ,weather condition ,35-44years ,9-10std ,,<30 ,,,,,regular licence ,Female
+kamshet,tunnel,9pm-12am ,cloudy ,car/jeep/taxi/buses(4 wheeler) ,4-6year ,excceding lawful speed ,fault of pedestrian ,21-24years ,above 10th std ,,30-50 ,,,,,others ,Female
+khandala,highway,12am-3am ,fine ,2 wheeler ,>10,excceding lawful speed ,weather condition ,65 and above ,9-10std ,,30-50 ,,,,,regular licence ,Female
+khalapur,Highway,12am-3am ,fine ,car/jeep/taxi/buses(4 wheeler) ,4-6year ,excceding lawful speed ,fault of pedestrian ,25-34years ,not known,,>70,,,,,others ,Male
+khalapur,toll naka,6pm-9pm ,heavy rain ,car/jeep/taxi/buses(4 wheeler) ,8-10year ,on wrong side of the road ,poor light ,<5years ,above 10th std ,,50-70 ,,,,,owner of public commercial vehicle ,Female
+kamshet,highway,9pm-12am ,fine ,car/jeep/taxi/buses(4 wheeler) ,1-2year ,passed on curve ,weather condition ,<5years ,not known,,50-70 ,,,,,regular licence ,Female
+khopoli,Bridge,6pm-9pm ,fine ,other motor vehicles,>10,excceding lawful speed , fault of driver ,55-64years ,above 10th std ,,30-50 ,,,,,regular licence ,Male
+khalapur,Highway,3pm-6pm ,heavy rain ,other motor vehicles,>10,other improper passsing , fault of driver ,25-34years ,9-10std ,,<30 ,,,,,learners licence ,Male
+khandala,at pedestrian crossing,3am-6am,fine ,"trucks ,tempos,tracto ",2-4year ,did not give right of way to vehicle , fault of driver ,10-14years ,not known,,50-70 ,,,,,regular licence ,Female
+khalapur,highway,6am-9am ,fine ,"trucks ,tempos,tracto ",>10,other improper passsing ,weather condition ,unknown age,above 10th std ,,30-50 ,,,,,regular licence ,Male
+kamshet,toll naka,12pm-3pm ,heavy rain ,other motor vehicles,>10,on wrong side of the road ,fault of driver of other vehicles ,65 and above ,not known,,30-50 ,,,,,others ,Male
+khalapur,Bridge,12pm-3pm ,fine ,car/jeep/taxi/buses(4 wheeler) ,2-4year ,passed on hill ,fault of pedestrian ,65 and above ,not known,,<30 ,,,,,without licence,Female
+lonavala,highway,12pm-3pm ,fine ,other motor vehicles,8-10year ,cut in sharply after passing ,defect in condition of motor vehicle ,<5years ,9-10std ,,50-70 ,,,,,without licence,Female
+lonavala,at pedestrian crossing,12am-3am ,heavy rain ,other motor vehicles,2-4year ,other improper passsing ,weather condition ,18-20years ,9-10std ,,<30 ,,,,,without licence,Female
+kamshet,tunnel,3pm-6pm ,heavy rain ,car/jeep/taxi/buses(4 wheeler) ,1-2year ,followed too closely ,weather condition ,18-20years ,not known,,>70,,,,,learners licence ,Female
+khalapur,at pedestrian crossing,3pm-6pm ,fine ,other motor vehicles,2-4year ,did not give right of way to vehicle , fault of driver ,21-24years ,upto 8th std ,,30-50 ,,,,,others ,Male
+lonavala,Highway,3am-6am,cloudy ,"trucks ,tempos,tracto ",<1 ,followed too closely ,weather condition ,10-14years ,upto 8th std ,,>70,,,,,others ,Female
+khopoli,Highway,3am-6am,heavy rain ,"trucks ,tempos,tracto ",4-6year ,excceding lawful speed ,fault of driver of other vehicles ,6-9years ,above 10th std ,,50-70 ,,,,,without licence,Female
+khopoli,tunnel,6pm-9pm ,heavy rain ,other motor vehicles,>10,alchol intake ,weather condition ,21-24years ,upto 8th std ,,>70,,,,,without licence,Female
+khandala,Highway,3am-6am,heavy rain ,car/jeep/taxi/buses(4 wheeler) ,>10,excceding lawful speed ,fault of driver of other vehicles ,<5years ,9-10std ,,>70,,,,,owner of public commercial vehicle ,Male
+khalapur,tunnel,9am-12pm ,heavy rain ,other motor vehicles,8-10year ,other improper passsing ,fault of driver of other vehicles ,15-17years ,not known,,<30 ,,,,,paid driver ,Male
+lonavala,tunnel,12am-3am ,fine ,"trucks ,tempos,tracto ",6-8year ,alchol intake ,fault of driver of other vehicles ,6-9years ,above 10th std ,,>70,,,,,paid driver ,Female
+khandala,Highway,3am-6am,cloudy ,"trucks ,tempos,tracto ",1-2year ,other improper passsing , fault of driver ,35-44years ,9-10std ,,>70,,,,,owner of private vehicle ,Male
+lonavala,tunnel,9am-12pm ,fine ,other motor vehicles,1-2year ,excceding lawful speed , fault of driver ,25-34years ,upto 8th std ,,<30 ,,,,,paid driver ,Female
+khopoli,tunnel,9pm-12am ,fine ,other motor vehicles,2-4year ,did not give right of way to vehicle , fault of driver ,25-34years ,upto 8th std ,,<30 ,,,,,regular licence ,Female
+kamshet,Highway,3pm-6pm ,fine ,"trucks ,tempos,tracto ",6-8year ,excceding lawful speed ,fault of pedestrian ,<5years ,above 10th std ,,50-70 ,,,,,owner of private vehicle ,Male
+kamshet,Highway,6pm-9pm ,heavy rain ,"trucks ,tempos,tracto ",8-10year ,did not give right of way to vehicle ,fault of driver of other vehicles ,55-64years ,above 10th std ,,50-70 ,,,,,owner of public commercial vehicle ,Male
+kamshet,Highway,9pm-12am ,fine ,car/jeep/taxi/buses(4 wheeler) ,<1 ,on wrong side of the road ,weather condition ,15-17years ,above 10th std ,,<30 ,,,,,regular licence ,Female
+khandala,Highway,9am-12pm ,cloudy ,car/jeep/taxi/buses(4 wheeler) ,6-8year ,other improper passsing ,fault of driver of other vehicles ,10-14years ,upto 8th std ,,30-50 ,,,,,others ,Female
+khalapur,Highway,12pm-3pm ,fine ,car/jeep/taxi/buses(4 wheeler) ,4-6year ,excceding lawful speed ,weather condition ,15-17years ,not known,,>70,,,,,without licence,Female
+kamshet,at pedestrian crossing,9am-12pm ,heavy rain ,"trucks ,tempos,tracto ",>10,give improper signal,weather condition ,35-44years ,9-10std ,,30-50 ,,,,,regular licence ,Female
+khopoli,Bridge,6am-9am ,fine ,"trucks ,tempos,tracto ",4-6year ,followed too closely ,weather condition ,<5years ,upto 8th std ,,50-70 ,,,,,learners licence ,Female
+khopoli,at pedestrian crossing,12pm-3pm ,fine ,car/jeep/taxi/buses(4 wheeler) ,4-6year ,did not give right of way to vehicle ,fault of pedestrian ,10-14years ,9-10std ,,>70,,,,,regular licence ,Female
+lonavala,Highway,12am-3am ,cloudy ,"trucks ,tempos,tracto ",1-2year ,give improper signal,fault of driver of other vehicles ,21-24years ,9-10std ,,50-70 ,,,,,regular licence ,Male
+khalapur,Highway,3pm-6pm ,heavy rain ,"trucks ,tempos,tracto ",4-6year ,passed on hill , fault of driver ,35-44years ,above 10th std ,,30-50 ,,,,,owner of private vehicle ,Female
+khopoli,Bridge,9pm-12am ,fine ,car/jeep/taxi/buses(4 wheeler) ,<1 ,on wrong side of the road , fault of driver ,65 and above ,above 10th std ,,<30 ,,,,,owner of public commercial vehicle ,Male
+khopoli,Highway,9pm-12am ,fine ,car/jeep/taxi/buses(4 wheeler) ,6-8year ,did not give right of way to pedestrian , fault of driver ,15-17years ,above 10th std ,,50-70 ,,,,,without licence,Male
+kamshet,Highway,3am-6am,heavy rain ,"trucks ,tempos,tracto ",>10,failed to give signal ,weather condition ,18-20years ,9-10std ,,50-70 ,,,,,paid driver ,Male
+khopoli,Highway,12pm-3pm ,heavy rain ,"trucks ,tempos,tracto ",2-4year ,alchol intake , fault of driver ,<5years ,above 10th std ,,>70,,,,,owner of public commercial vehicle ,Male
+khalapur,tunnel,6pm-9pm ,fine ,"trucks ,tempos,tracto ",<1 ,excceding lawful speed , fault of driver ,unknown age,upto 8th std ,,50-70 ,,,,,learners licence ,Female
+khalapur,toll naka,3am-6am,fine ,"trucks ,tempos,tracto ",2-4year ,excceding lawful speed ,weather condition ,6-9years ,above 10th std ,,30-50 ,,,,,others ,Male
+kamshet,at pedestrian crossing,6am-9am ,fine ,car/jeep/taxi/buses(4 wheeler) ,2-4year ,did not give right of way to pedestrian , fault of driver ,55-64years ,9-10std ,,50-70 ,,,,,learners licence ,Male
+khopoli,tunnel,6am-9am ,fine ,"trucks ,tempos,tracto ",8-10year ,followed too closely ,weather condition ,18-20years ,not known,,<30 ,,,,,owner of public commercial vehicle ,Female
+kamshet,Bridge,3pm-6pm ,heavy rain ,car/jeep/taxi/buses(4 wheeler) ,2-4year ,give improper signal, fault of driver ,unknown age,upto 8th std ,,>70,,,,,without licence,Female
+khalapur,Bridge,9pm-12am ,fine ,car/jeep/taxi/buses(4 wheeler) ,4-6year ,alchol intake ,weather condition ,25-34years ,above 10th std ,,<30 ,,,,,learners licence ,Male
+khandala,at pedestrian crossing,9pm-12am ,cloudy ,"trucks ,tempos,tracto ",2-4year ,give improper signal,weather condition ,35-44years ,above 10th std ,,30-50 ,,,,,others ,Female
+khopoli,at pedestrian crossing,6am-9am ,cloudy ,car/jeep/taxi/buses(4 wheeler) ,2-4year ,give improper signal, fault of driver ,35-44years ,upto 8th std ,,>70,,,,,owner of public commercial vehicle ,Female
+khopoli,tunnel,6pm-9pm ,heavy rain ,"trucks ,tempos,tracto ",6-8year ,excceding lawful speed , fault of driver ,45-54years ,above 10th std ,,50-70 ,,,,,others ,Male
+lonavala,at pedestrian crossing,3am-6am,heavy rain ,"trucks ,tempos,tracto ",<1 ,alchol intake , fault of driver ,21-24years ,9-10std ,,>70,,,,,regular licence ,Male
+khopoli,at pedestrian crossing,12am-3am ,heavy rain ,car/jeep/taxi/buses(4 wheeler) ,<1 ,excceding lawful speed , fault of driver ,35-44years ,above 10th std ,,30-50 ,,,,,regular licence ,Male
+lonavala,Bridge,6am-9am ,heavy rain ,car/jeep/taxi/buses(4 wheeler) ,2-4year ,give improper signal,weather condition ,35-44years ,not known,,>70,,,,,owner of public commercial vehicle ,Female
+khopoli,at pedestrian crossing,6pm-9pm ,fine ,other motor vehicles,<1 ,excceding lawful speed ,weather condition ,25-34years ,not known,,50-70 ,,,,,learners licence ,Female
+lonavala,Bridge,9am-12pm ,cloudy ,"trucks ,tempos,tracto ",4-6year ,excceding lawful speed ,weather condition ,15-17years ,not known,,30-50 ,,,,,learners licence ,Male
+lonavala,at pedestrian crossing,6am-9am ,fine ,other motor vehicles,<1 ,failed to give signal ,fault of driver of other vehicles ,25-34years ,9-10std ,,50-70 ,,,,,paid driver ,Female
+lonavala,Bridge,12am-3am ,fine ,car/jeep/taxi/buses(4 wheeler) ,1-2year ,did not give right of way to pedestrian ,weather condition ,10-14years ,upto 8th std ,,30-50 ,,,,,regular licence ,Male
+lonavala,tunnel,9am-12pm ,heavy rain ,"trucks ,tempos,tracto ",>10,cut in sharply after passing ,fault of driver of other vehicles ,45-54years ,upto 8th std ,,50-70 ,,,,,owner of public commercial vehicle ,Female
+khandala,tunnel,9pm-12am ,heavy rain ,other motor vehicles,2-4year ,alchol intake ,fault of driver of other vehicles ,21-24years ,above 10th std ,,30-50 ,,,,,without licence,Male
+lonavala,Highway,6am-9am ,heavy rain ,other motor vehicles,<1 ,did not give right of way to vehicle , fault of driver ,10-14years ,upto 8th std ,,30-50 ,,,,,owner of public commercial vehicle ,Female
+khandala,Bridge,9pm-12am ,fine ,"trucks ,tempos,tracto ",8-10year ,excceding lawful speed ,weather condition ,10-14years ,not known,,>70,,,,,learners licence ,Female
+khopoli,Bridge,6am-9am ,light rain ,car/jeep/taxi/buses(4 wheeler) ,>10,other improper passsing , fault of driver ,55-64years ,upto 8th std ,,30-50 ,,,,,paid driver ,Male
+kamshet,tunnel,9am-12pm ,fine ,"trucks ,tempos,tracto ",2-4year ,give improper signal,weather condition ,10-14years ,upto 8th std ,,30-50 ,,,,,without licence,Female
+khalapur,Bridge,3pm-6pm ,fine ,"trucks ,tempos,tracto ",4-6year ,other improper passsing ,fault of driver of other vehicles ,18-20years ,not known,,50-70 ,,,,,owner of private vehicle ,Female
+khandala,Highway,12am-3am ,heavy rain ,"trucks ,tempos,tracto ",>10,passed on curve ,fault of driver of other vehicles ,10-14years ,9-10std ,,>70,,,,,owner of public commercial vehicle ,Male
+khandala,tunnel,3am-6am,heavy rain ,car/jeep/taxi/buses(4 wheeler) ,6-8year ,excceding lawful speed ,weather condition ,15-17years ,upto 8th std ,,30-50 ,,,,,paid driver ,Female
+kamshet,Highway,3pm-6pm ,fine ,other motor vehicles,6-8year ,failed to give signal ,fault of pedestrian ,65 and above ,above 10th std ,,>70,,,,,learners licence ,Male
+khopoli,Bridge,9am-12pm ,light rain ,car/jeep/taxi/buses(4 wheeler) ,>10,passed on curve ,fault of driver of other vehicles ,unknown age,not known,,>70,,,,,paid driver ,Male
+khopoli,at pedestrian crossing,9pm-12am ,heavy rain ,"trucks ,tempos,tracto ",<1 ,excceding lawful speed ,fault of driver of other vehicles ,55-64years ,9-10std ,,50-70 ,,,,,regular licence ,Male
+lonavala,tunnel,6am-9am ,heavy rain ,"trucks ,tempos,tracto ",<1 ,other improper passsing , fault of driver ,15-17years ,above 10th std ,,50-70 ,,,,,others ,Female
+khalapur,Highway,12am-3am ,fine ,car/jeep/taxi/buses(4 wheeler) ,<1 ,cut in sharply after passing , fault of driver ,65 and above ,not known,,30-50 ,,,,,others ,Female
+khopoli,Highway,6pm-9pm ,heavy rain ,car/jeep/taxi/buses(4 wheeler) ,1-2year ,other improper passsing , fault of driver ,21-24years ,upto 8th std ,,30-50 ,,,,,learners licence ,Male
+lonavala,at pedestrian crossing,12am-3am ,heavy rain ,car/jeep/taxi/buses(4 wheeler) ,>10,did not give right of way to vehicle ,weather condition ,21-24years ,9-10std ,,50-70 ,,,,,owner of private vehicle ,Male
+khandala,Highway,3pm-6pm ,fine ,"trucks ,tempos,tracto ",1-2year ,excceding lawful speed ,fault of driver of other vehicles ,35-44years ,above 10th std ,,>70,,,,,without licence,Male
+khalapur,toll naka,6pm-9pm ,heavy rain ,3 wheeler ,>10,did not give right of way to pedestrian ,fault of pedestrian ,18-20years ,not known,,30-50 ,,,,,owner of private vehicle ,Female
+khalapur,tunnel,6am-9am ,fine ,other motor vehicles,6-8year ,failed to give signal ,weather condition ,6-9years ,upto 8th std ,,30-50 ,,,,,without licence,Male
+khandala,Highway,6pm-9pm ,heavy rain ,2 wheeler ,<1 ,excceding lawful speed ,fault of driver of other vehicles ,35-44years ,not known,,>70,,,,,others ,Male
+kamshet,Highway,12am-3am ,fine ,car/jeep/taxi/buses(4 wheeler) ,2-4year ,give improper signal,fault of driver of other vehicles ,21-24years ,upto 8th std ,,50-70 ,,,,,owner of public commercial vehicle ,Male
+khandala,Bridge,9pm-12am ,heavy rain ,"trucks ,tempos,tracto ",>10,cut in sharply after passing ,fault of pedestrian ,6-9years ,upto 8th std ,,<30 ,,,,,regular licence ,Male
+kamshet,at pedestrian crossing,3am-6am,fine ,car/jeep/taxi/buses(4 wheeler) ,4-6year ,alchol intake ,fault of driver,25-34years ,9-10std ,,30-50 ,,,,,without licence,Male
+khandala,Bridge,12am-3am ,light rain ,other motor vehicles,6-8year ,failed to give signal , fault of driver ,unknown age,upto 8th std ,,>70,,,,,regular licence ,Female
+khandala,Bridge,3am-6am,heavy rain ,other motor vehicles,>10,did not give right of way to pedestrian ,weather condition ,45-54years ,9-10std ,,30-50 ,,,,,regular licence ,Female
+khalapur,Bridge,3pm-6pm ,fine ,2 wheeler ,4-6year ,passed on hill ,weather condition ,15-17years ,upto 8th std ,,<30 ,,,,,owner of private vehicle ,Female
+khalapur,Highway,3am-6am,light rain ,car/jeep/taxi/buses(4 wheeler) ,1-2year ,alchol intake , fault of driver ,55-64years ,9-10std ,,50-70 ,,,,,learners licence ,Female
+lonavala,tunnel,12am-3am ,heavy rain ,"trucks ,tempos,tracto ",8-10year ,excceding lawful speed ,weather condition ,55-64years ,not known,,<30 ,,,,,owner of private vehicle ,Female
+lonavala,Highway,6am-9am ,fine ,car/jeep/taxi/buses(4 wheeler) ,<1 ,cut in sharply after passing ,fault of driver of other vehicles ,10-14years ,above 10th std ,,50-70 ,,,,,learners licence ,Male
+lonavala,Highway,3pm-6pm ,light rain ,2 wheeler ,4-6year ,cut in sharply after passing ,weather condition ,25-34years ,9-10std ,,<30 ,,,,,without licence,Male
+khopoli,tunnel,3pm-6pm ,heavy rain ,2 wheeler ,1-2year ,on wrong side of the road , fault of driver ,6-9years ,9-10std ,,<30 ,,,,,others ,Male
+lonavala,Highway,3am-6am,fine ,"trucks ,tempos,tracto ",<1 ,excceding lawful speed ,weather condition ,25-34years ,9-10std ,,<30 ,,,,,paid driver ,Male
+khopoli,Highway,6pm-9pm ,heavy rain ,"trucks ,tempos,tracto ",6-8year ,passed on hill ,weather condition ,18-20years ,above 10th std ,,>70,,,,,without licence,Female
+lonavala,tunnel,9am-12pm ,heavy rain ,2 wheeler ,8-10year ,excceding lawful speed ,fault of driver of other vehicles ,55-64years ,not known,,30-50 ,,,,,owner of public commercial vehicle ,Male
+khandala,Highway,12pm-3pm ,heavy rain ,other motor vehicles,4-6year ,excceding lawful speed ,weather condition ,65 and above ,9-10std ,,<30 ,,,,,others ,Female
+khalapur,toll naka,12pm-3pm ,fine ,"trucks ,tempos,tracto ",8-10year ,excceding lawful speed ,weather condition ,35-44years ,above 10th std ,,50-70 ,,,,,regular licence ,Male
+khalpur,Highway,3pm-6pm ,heavy rain ,other motor vehicles,<1 ,excceding lawful speed , fault of driver ,25-34years ,upto 8th std ,,>70,,,,,without licence,Male
+khopoli,Bridge,3am-6am,fine ,"trucks ,tempos,tracto ",1-2year ,other improper passsing , fault of driver ,15-17years ,not known,,>70,,,,,paid driver ,Male
+khandala,at pedestrian crossing,6pm-9pm ,light rain ,2 wheeler ,8-10year ,excceding lawful speed , fault of driver ,65 and above ,above 10th std ,,<30 ,,,,,others ,Male
+kamshet,Highway,6am-9am ,fine ,car/jeep/taxi/buses(4 wheeler) ,<1 ,passed on curve ,weather condition ,18-20years ,9-10std ,,50-70 ,,,,,paid driver ,Male
+khandala,Bridge,6am-9am ,light rain ,"trucks ,tempos,tracto ",6-8year ,did not give right of way to vehicle ,weather condition ,6-9years ,9-10std ,,30-50 ,,,,,owner of public commercial vehicle ,Male
+kamshet,at pedestrian crossing,12am-3am ,fine ,"trucks ,tempos,tracto ",<1 ,did not give right of way to vehicle ,weather condition ,unknown age,not known,,50-70 ,,,,,paid driver ,Female

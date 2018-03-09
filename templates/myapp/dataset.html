@@ -1,0 +1,17 @@
+{% extends "myapp/base.html" %}
+{% block body_block %}
+{% if user.is_authenticated %}
+<div class="container">
+
+  <form method="post">
+    {{ csrf_token }}
+    <input type="text" name="loc" value="">
+    <button type="submit" name="button">Submit</button>
+  </form>
+</div>
+
+<div class="Table">
+  {{loc}}
+</div>
+{% endif %}
+{% endblock %}

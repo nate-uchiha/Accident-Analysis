@@ -1,0 +1,100 @@
+ ,Solutions for Admin 
+"frozenset({'50-70 ', 'police controlled ', 'other motor vehicles'})",Add speed breakers and improve traffic police functioning 
+"frozenset({'50-70 ', '12am-3am ', 'weather condition '})",Improve visibilty of speed breakers and sign boards 
+"frozenset({'cloudy ', '2 wheeler ', 'traffic light signal '})",reflective signs to warn the drivers in not clear weather and make helmet checking strict 
+"frozenset({'>70', '3 wheeler ', 'other extraordinary weather conditions'})",Add speed breakers with good visibilty
+"frozenset({'cloudy ', '3am-6am', 'traffic light signal '})",Add reflective sign boards before the traffic signal 
+"frozenset({'light rain ', '3am-6am', 'uncontolled'})",Improve visibilty of speed breakers and functioning of police
+"frozenset({'50-70 ', 'near a factory or indu. Area ', 'car/jeep/taxi,buses(4 wheeler) '})",Warn about factory area using sign boards to show speed limits 
+"frozenset({'50-70 ', 'police controlled ', 'other extraordinary weather conditions'})",improve police functioning and also add reflective speed limit sign boards 
+"frozenset({'rear end collision ', 'police controlled ', '6pm-9pm '})",Improve lane system and traffic police functioning 
+"frozenset({'flashing signal/blinker ', 'fault of driver ', '<30 '})","Improve safety and warning signs position, Strict scrutiny before provision of driving licence"
+"frozenset({'flashing signal/blinker ', 'heavy rain ', '<30 '})","Improve safety and warning signs position, Prevent water logging on low-lying area"
+"frozenset({'cloudy ', '9am-12pm ', 'car/jeep/taxi,buses(4 wheeler) '})",Use reflective sign boards to warn the drivers 
+"frozenset({'light rain ', '50-70 ', 'car/jeep/taxi,buses(4 wheeler) '})",improve visibility of speed limit sign board 
+"frozenset({'cloudy ', '50-70 ', 'stray animals '})",
+"frozenset({'50-70 ', 'police controlled ', 'muddy/oily/slippery'})",Improve road conditions and ensure road is not slippery 
+"frozenset({'50-70 ', 'police controlled ', 'stray animals '})",
+"frozenset({'fine ', 'police controlled ', '3 wheeler '})",strict inspection of 3 wheeler vehicles should be done
+"frozenset({'heavy rain ', '30-50 ', 'uncontolled'})",Prevent water logging on low-lying area by proper drainage system 
+"frozenset({'cloudy ', '3pm-6pm ', 'rutted/pot holes '})",improve roads and fill the potholes 
+"frozenset({'<30 ', 'stray animals ', '6pm-9pm '})",
+"frozenset({'speed braker ', 'heavy rain ', 'uncontolled'})","Prevent water logging on low-lying area, improve visibilty of speed breakers"
+"frozenset({'>70', 'uncontolled', '3 wheeler '})","Add speed breakers, Install traffic signals wherever there is haphazard traffic"
+"frozenset({'stop sign  ', '30-50 ', 'trucks ,tempos,tractor '})","Improve safety and warning signs, improve lane system"
+"frozenset({'cloudy ', 'police controlled ', '<30 '})",improve police functioning and visibility of sign boards 
+"frozenset({'<30 ', 'police controlled ', '3 wheeler '})",Install traffic signals wherever there is haphazard traffic and improve police functioning 
+"frozenset({'cloudy ', 'police controlled ', '3 wheeler '})","strict action should be taken by police officers, if required install traffic signal "
+"frozenset({'collision brush/side swip ', '50-70 ', 'uncontolled'})",Improve lane system and police functioning 
+"frozenset({'3pm-6pm ', 'heavy rain ', 'police controlled '})",Prevent water logging on low-lying area and improve police functioning 
+"frozenset({'other causes/causes not known', '50-70 ', 'other extraordinary weather conditions'})",Install traffic signals wherever there is haphazard traffic and improve the visibilty of sign boards 
+"frozenset({'50-70 ', '12am-3am ', 'other motor vehicles'})",improve visibility of sign boards and if required construct speed breakers 
+"frozenset({'rear end collision ', '50-70 ', '12am-3am '})",Improve lane system and construct new speed breakers(if required)
+"frozenset({'stop sign  ', '50-70 ', '12am-3am '})",reflective signs to warn the drivers(should be visible in dark environment)
+"frozenset({'hit and run ', '>70', '12am-3am '})","Add speed breakers, reflective signs to warn the drivers especially at night"
+"frozenset({'flashing signal/blinker ', '12am-3am ', 'other motor vehicles'})",Improve safety and warning signs position
+"frozenset({'rear end collision ', '12am-3am ', 'other motor vehicles'})",Improve lane system and functioning of traffic signals 
+"frozenset({'stop sign  ', '12am-3am ', 'weather condition '})",reflective stop sign board to warn the drivers especially at night
+"frozenset({'12pm-3pm ', 'car/jeep/taxi,buses(4 wheeler) ', '<30 '})",Install traffic signals wherever there is haphazard traffic and also improve lane system 
+"frozenset({'fault of driver ', '12pm-3pm ', '<30 '})",Strict scrutiny before provision of driving licence should be done 
+"frozenset({'flashing signal/blinker ', '12pm-3pm ', '<30 '})",Improve safety and warning sign board position 
+"frozenset({'incline road ', '>70', '12pm-3pm '})",The steep roads and cliffs should have reflective signs to warn the drivers prior 
+"frozenset({'>70', 'neglect of civic bodies ', '12pm-3pm '})",Improve officials governing and construct speed breakers if required
+"frozenset({'>70', 'rear end collision ', '12pm-3pm '})",Improve lane system and functioning of traffic signals and officials
+"frozenset({'>70', '12pm-3pm ', 'traffic light signal '})",construct proper speed breakers 
+"frozenset({'fault of driver ', '12pm-3pm ', 'car/jeep/taxi,buses(4 wheeler) '})",Strict scrutiny before provision of driving licence and improve functioning of traffic officials  
+"frozenset({'flashing signal/blinker ', '12pm-3pm ', 'car/jeep/taxi,buses(4 wheeler) '})",
+"frozenset({'cloudy ', 'rear end collision ', '12pm-3pm '})",improve lane system with proper guidance for 4 wheeler vehicle s
+"frozenset({'flashing signal/blinker ', 'fault of driver ', '12pm-3pm '})",Strict scrutiny before provision of driving licence and maintain the traffic signals
+"frozenset({'incline road ', 'neglect of civic bodies ', '12pm-3pm '})",put required sign board before the inclination and improve functioning of civic bodies
+"frozenset({'poor light ', '3pm-6pm ', '2 wheeler '})",put street lights as required
+"frozenset({'police controlled ', '2 wheeler ', '<30 '})",strict rules should be made to follow and Install traffic signals if required
+"frozenset({'cloudy ', 'fault of driver of other vehicles ', '2 wheeler '})",Strict scrutiny before provision of driving licence for 2 wheeler vehicles 
+"frozenset({'cloudy ', 'rear end collision ', '2 wheeler '})",improve lane system with proper sign boards for speed limits for 2 wheeler 
+"frozenset({'fault of driver of other vehicles ', 'rear end collision ', '2 wheeler '})",license should be provided after strict scrunity improve lane system with proper sign boards for speed limits
+"frozenset({'uncontolled', '2 wheeler ', 'other extraordinary weather conditions'})",Install traffic signals wherever there is haphazard traffic and improve functioning of government officials 
+"frozenset({'>70', 'fine ', '3 wheeler '})",add speed limit sign boards for 3 wheeler vehicles
+"frozenset({'>70', 'incline road ', '3 wheeler '})",put a speed limit sign board 10m before inclination to warn the driver 
+"frozenset({'>70', 'near bus stop ', '3 wheeler '})",proper speed limit boards should be put before the bus stop
+"frozenset({'>70', 'open area ', '3 wheeler '})",constuct proper visible speed breakers and put required speed limit boards 
+"frozenset({'overturning ', '>70', '3 wheeler '})",speed limits for 3 wheeler should be displayed before the required spot
+"frozenset({'>70', 'right engled collsion ', '3 wheeler '})",
+"frozenset({'>70', 'stop sign  ', '3 wheeler '})",visbility of the speed limit sign board for 3 wheeler should be improved
+"frozenset({'>70', '3 wheeler ', 'weather condition '})",Install traffic signals wherever there is haphazard traffic and display speed limits for 3 wheeler 
+"frozenset({'incline road ', 'fine ', '3 wheeler '})",ensure the road is inclined at proper angle and warn the driver before 
+"frozenset({'fine ', '3 wheeler ', 'stop sign  '})",visibility of stop sign board should be improved 
+"frozenset({'incline road ', 'stop sign  ', '3 wheeler '})",sign boards to warn about inclination should be put
+"frozenset({'overturning ', 'open area ', '3 wheeler '})",
+"frozenset({'stop sign  ', 'open area ', '3 wheeler '})",improve visibilty of stop sign board and if required install traffic signal 
+"frozenset({'overturning ', 'stop sign  ', '3 wheeler '})",stop sign should be easily visible to drivers
+"frozenset({'stop sign  ', '3 wheeler ', 'weather condition '})",use properly visible stop sign boards 
+"frozenset({'3am-6am', '50-70 ', 'Dry road '})",improve visibility of speed limit boards with reflctive property
+"frozenset({'3am-6am', '50-70 ', 'in bazar '})",sign boards regarding speed limit should be placed 10m before the market
+"frozenset({'light rain ', '3am-6am', '50-70 '})",improve visibility of speed limit boards and if required construct proper speed breakers
+"frozenset({'3am-6am', '50-70 ', 'uncontolled'})",improve police functioning and if required Install traffic signals wherever there is haphazard traffic
+"frozenset({'3am-6am', 'Dry road ', 'in bazar '})",properly visible sign boards regarding speed limit should be placed 10m before the market
+"frozenset({'light rain ', '3am-6am', 'Dry road '})",maintain the proper condition of roads 
+"frozenset({'3am-6am', 'Dry road ', 'uncontolled'})",inspect the need to install traffice signal
+"frozenset({'near or inside a village ', 'cloudy ', '3am-6am'})",put reflective sign boards to warn the drivers about the village ahead
+"frozenset({'light rain ', '3am-6am', 'in bazar '})",improve traffic police functioning and put sign boards regarding speed limit should be placed 10m before the market
+"frozenset({'3am-6am', 'in bazar ', 'uncontolled'})",sign boards regarding speed limit should be placed 10m before the market
+"frozenset({'near or inside a village ', 'traffic light signal ', '3am-6am'})",put reflective sign boards to warn the drivers about the village ahead
+"frozenset({'3am-6am', 'uncontolled', 'right engled collsion '})",
+"frozenset({'3am-6am', 'right engled collsion ', 'weather condition '})",
+"frozenset({'3am-6am', 'uncontolled', 'weather condition '})",installation of traffic signals if required 
+"frozenset({'50-70 ', 'Dry road ', 'in bazar '})",sign boards regarding speed limit should be placed 10m before the market
+"frozenset({'light rain ', '50-70 ', 'Dry road '})",put proper speeed limit boards that are visible in all weather
+"frozenset({'50-70 ', 'uncontolled', 'Dry road '})",traffic police functioning should be improved 
+"frozenset({'Kutcha Roads ', 'flashing signal/blinker ', '50-70 '})",proper road construction should be ensured 
+"frozenset({'50-70 ', 'fault of driver ', 'car/jeep/taxi,buses(4 wheeler) '})",Strict scrutiny before provision of driving licence for 4 wheeler vehicles 
+"frozenset({'50-70 ', 'car/jeep/taxi,buses(4 wheeler) ', 'other extraordinary weather conditions'})",speed limit for 4 wheeler should be put with proper visibility 
+"frozenset({'50-70 ', 'police controlled ', 'car/jeep/taxi,buses(4 wheeler) '})",speed limits for 4 wheeler should be displayed and if required install traffic signals wherever there is haphazard traffic area
+"frozenset({'light rain ', '50-70 ', 'in bazar '})",sign boards regarding speed limit should be placed 10m before the market
+"frozenset({'50-70 ', 'uncontolled', 'in bazar '})",need to improve police functioning and sign boards regarding speed limit should be placed 10m before the market
+"frozenset({'incline road ', '50-70 ', 'near school/college '})",reflective signs to warn the drivers about the school ahead and display the speed limits 
+"frozenset({'light rain ', '50-70 ', 'uncontolled'})",Improve officials governing and Install traffic signals wherever there is haphazard traffic
+"frozenset({'50-70 ', 'near a factory or indu. Area ', 'other extraordinary weather conditions'})",reflective sign boards about a 100m before the factory area to warn drivers
+"frozenset({'50-70 ', 'rear end collision ', 'other motor vehicles'})",improve lane system with proper sign boards for speed limits
+"frozenset({'50-70 ', 'other motor vehicles', 'weather condition '})",use reflective speed limit sign boards 
+"frozenset({'stop sign  ', '50-70 ', 'weather condition '})",put proper stop sign board that are easily visible 
+"frozenset({'>70', 'open area ', '6am-9am '})",construct proper speed breakers
