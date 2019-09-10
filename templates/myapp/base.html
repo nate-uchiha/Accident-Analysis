@@ -6,13 +6,15 @@
 
     <!-- Bootstrap core CSS -->
 
+    <!-- Bootstrap core JavaScript -->
+    {% load static %}
+    <script src="{% static "vendor/jquery/jquery.min.js" %}"></script>
+    <script src="{% static "vendor/bootstrap/js/bootstrap.bundle.min.js" %}"></script>
 
-<!-- from front end -->
+    <!-- from front end -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-
-
     {% load static %}
     <link href="{% static "vendor/bootstrap/css/bootstrap.min.css" %}" rel="stylesheet">
     <link href="{% static "css/half-slider.css" %}" rel="stylesheet">
@@ -22,7 +24,6 @@
 <!-- front end  -->
     <title>Road Safety Project</title>
 
-<
   </head>
   <body>
 
@@ -46,6 +47,9 @@
                 <a class="nav-link" href="{% url 'logout' %}">Logout</a>
               </li>
               {% else %}
+              <li class="nav-item">
+                <a class="nav-link" href="{% url 'admin:index' %}">Admin</a>
+              </li>
               <li class="nav-item">
                 <a class="nav-link" href="{% url 'myapp:user_login' %}">Login</a>
               </li>

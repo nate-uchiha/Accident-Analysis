@@ -14,7 +14,7 @@ from myapp.forms import UserForm
 # Extra Imports for the Login and Logout Capabilities
 from django.contrib.auth import authenticate, login, logout
 from django.http import HttpResponseRedirect, HttpResponse
-from django.core.urlresolvers import reverse
+from django.urls import reverse
 from django.contrib.auth.decorators import login_required
 # Create your views here.
 def index(request):
@@ -74,7 +74,7 @@ def register(request):
             user = user_form.save()
 
             # Hash the password
-            user.set_password(user.password)
+            #user.set_password(user.password)
 
             # Update with Hashed password
             user.save()

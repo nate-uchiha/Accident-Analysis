@@ -139,7 +139,7 @@ $(document).ready(function(){
    success:function(data)
    {
     var employee_data = data.split(/\r?\n|\r/);
-    var table_data = '<table class="table table-bordered table-striped">';
+    var table_data = '<table class="table table-striped position=static">';
     for(var count = 0; count<employee_data.length; count++)
     {
      var cell_data = employee_data[count].split(",");
